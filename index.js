@@ -7,8 +7,8 @@ function saturdayFun(activity = 'roller-skate') {
 function mondayWork(task = 'go to the office') {
     return `This Monday, I will ${task}.`;
   }
-  function wrapAdjective(flair = "*") {
+  function wrapAdjective(tee = "*") {
     return function (adjective = "special") {
-      return `You are ${flair}${adjective}${flair}!`;
+      return `You are ${tee}${adjective}${tee}!`;
     };
   }
